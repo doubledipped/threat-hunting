@@ -1,12 +1,13 @@
 Indicator_type,Data,Note
 Description,IoCs from Notepad++ Supply Chain Attack,https://cybersecuritynews.com/notepad-hack/
 
+file_path_name,C:\Users\%\Desktop\test.txt,test ioc
 domain,api.skycloudcenter.com,Chrysalis Backdoor C2
 domain,api.wiresguard.com,Cobalt Strike Beacon C2
-ip,61.4.102.97,Resolution for api.skycloudcenter.com (Malaysia)
+ip,61.4.102.97,Resolution forÂ api.skycloudcenter.comÂ (Malaysia)
 ip,59.110.7.32,C2 IP associated with Loader 1
 ip,124.222.137.114,C2 IP associated with Loader 2
-ip,95.179.213.0,Host for update.exe download
+ip,95.179.213.0,Host forÂ update.exeÂ download
 sha256,a511be5164dc1122fb5a7daa3eef9467e43d8458425b15a640235796006590c9,Malicious NSIS Installer used for initial payload delivery
 sha256,8ea8b83645fba6e23d48075a0d3fc73ad2ba515b4536710cda4f1f232718f53e,Extracted NSIS installation script
 sha256,2da00de67720f5f13b17e9d985fe70f10f153da60c9ab1086fe58f069a156924,Renamed Bitdefender Submission Wizard (legitimate binary abused for sideloading)
@@ -14,8 +15,8 @@ sha256,77bfea78def679aa1117f569a35e8fd1542df21f7e00e27f192c907e61d63a2e,Encrypte
 sha256,3bdc4c0637591533f1d4198a72a33426c01f69bd2e15ceee547866f65e26b7ad,Malicious DLL sideloaded by BluetoothService.exe
 sha256,9276594e73cda1c69b7d265b3f08dc8fa84bf2d6599086b9acc0bb3745146600,Temporary batch file used for self-deletion/cleanup
 sha256,f4d829739f2d6ba7e3ede83dad428a0ced1a703ec582fc73a4eee3df3704629a,C source file containing shellcode bytes (Metasploit block API)
-sha256,4a52570eeaf9d27722377865df312e295a7a23c3b6eb991944c2ecd707cc9906,"Library for Tiny C Compiler, used to compile/run conf.c"
-sha256,831e1ea13a1bd405f5bda2b9d8f2265f7b1db6c668dd2165ccc8a9c4c15ea7dd,"File retrieved from api.wiresguard.com, related to second-stage shellcode"
+sha256,4a52570eeaf9d27722377865df312e295a7a23c3b6eb991944c2ecd707cc9906,"Library for Tiny C Compiler, used to compile/runÂ conf.c"
+sha256,831e1ea13a1bd405f5bda2b9d8f2265f7b1db6c668dd2165ccc8a9c4c15ea7dd,"File retrieved fromÂ api.wiresguard.com, related to second-stage shellcode"
 sha256,0a9b8df968df41920b6ff07785cbfebe8bda29e6b512c94a3b2a83d10014d2fd,Variant loader sample found in public repositories
 sha256,4c2ea8193f4a5db63b897a2d3ce127cc5d89687f380b97a1d91e0c8db542e4f8,Shellcode associated with Loader 1
 sha256,e7cd605568c38bd6e0aba31045e1633205d0598c607a855e2e1bca4cca1c6eda,Variant loader sample found in public repositories
