@@ -2,6 +2,7 @@ Indicator_type,Data,Note
 Description,IoCs from Notepad++ Supply Chain Attack,https://cybersecuritynews.com/notepad-hack/
 
 filename,test.txt,test ioc
+file_path_name,‪C:\Windows\win.ini,test ioc
 domain,api.skycloudcenter.com,Chrysalis Backdoor C2
 domain,api.wiresguard.com,Cobalt Strike Beacon C2
 ip,61.4.102.97,Resolution for api.skycloudcenter.com (Malaysia)
